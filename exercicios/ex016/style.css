@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+ 
+    background-color: rgba(21, 21, 22, 0.692);
+}
+p{
+    margin-left: 5px;
+    margin-inline-end: auto ;
+}
+
+h2{
+    margin-left: 5px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+
+    
+}
+
+main{
+  
+    background-image:  linear-gradient(to bottom, #023E52, #069ED1, #82C3D9 );
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+
+}

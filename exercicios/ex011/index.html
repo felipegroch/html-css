@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexível</title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/chat1000.jpg" type="image/jpg"> <!-- ele testa se a view é 1050 no minimo, se for usa a chat1000.jgp, se não vai pro proximo source. por isso deve ter uma ordem, do maior para o menor(se tiver usando o min-width) ou do menor para o maior(se tiver usando o max-width)-->
+        <source media="(min-width: 750px)" srcset="imagens/chat700.jpg" type="image/jpg"><!-- ele testa se a view é 1050 no minimo, se for usa a chat1000.jgp-->
+        <img src="C:\Users\LF\Documents\estudos\html-css\exercicios\ex011\imagens\chat300.jpg" alt="a imagem Flexível funciona">
+
+    </picture>
+    
+</body>
+</html>
